@@ -1,1 +1,44 @@
-/*  your css code here. If applicable */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.navigation {
+    flex: 1;
+    background-color: #D7E8D4;
+    width: 16.66666667%; /* 1/6th of the viewport width */
+}
+
+.content {
+    flex: 5;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: yellowgreen;
+    flex: 1;
+}
+
+main {
+    flex: 4;
+    display: flex;
+}
+
+.article {
+    flex: 3;
+    min-height: 60vh;
+    padding: 1em;
+}
+
+aside {
+    flex: 1;
+    padding: 1em;
+}
